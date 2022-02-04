@@ -71,6 +71,15 @@ const struct device_model devices[] = {
 		.home_button_at_right = 1
 	},
 	{
+		.name = "iPad7,11",
+		.volume_up = 0x20f100168,
+		.volume_down = 0x20f100028,
+		.mute_switch = NULL,
+		.power_button = 0x20f100028,
+		.home_button = 0x20f100028,
+		.home_button_at_right = 1
+	},
+	{
 		.name = "iPad7,12",
 		.volume_up = 0x20f100168,
 		.volume_down = 0x20f100164,
